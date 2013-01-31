@@ -7,6 +7,6 @@ class PostAdmin(admin.ModelAdmin):
     search_fields = ['title', 'description', 'content']
     date_hierarchy = 'pub_date'
     save_on_top = True
-    prepopulated_field = {"slug": ("title",)}
+    prepopulated_fields = {"slug": ("title",)}
 
 admin.site.register(Post, PostAdmin)
