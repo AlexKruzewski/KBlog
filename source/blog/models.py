@@ -30,6 +30,7 @@ class Image(models.Model):
     slug = models.SlugField()
     image = models.ImageField(upload_to="blog-images")
     postId = models.ForeignKey('Post', blank=True)
+    alt = models.CharField(max_length=255)
 
     def __unicode__(self):
         return self.name
