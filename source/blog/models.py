@@ -24,3 +24,12 @@ class Post(models.Model):
     def save(self, *args, **kwargs):
         self.html_content = markdown.markdown(self.content)
         super(Post, self).save(*args, **kwargs)
+
+class Image(models.Model):
+    name = models.CharField(max_length=255)
+    slug = models.SlugField()
+    image = models.ImageField(upload_to="blog-images")
+    postId = models.ForeignKey('Post', blank=True)
+
+    def __unicode__(self):
+        return self.name

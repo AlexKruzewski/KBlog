@@ -1,4 +1,4 @@
-from blog.models import Post
+from blog.models import Post, Image
 from django.contrib import admin
 
 class PostAdmin(admin.ModelAdmin):
@@ -9,4 +9,8 @@ class PostAdmin(admin.ModelAdmin):
     save_on_top = True
     prepopulated_fields = {"slug": ("title",)}
 
+class ImageAdmin(admin.ModelAdmin):
+    prepopulated_fields = {"slug": ("name",)}
+
 admin.site.register(Post, PostAdmin)
+admin.site.register(Image, ImageAdmin)
