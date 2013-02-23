@@ -13,7 +13,7 @@ class Post(models.Model):
     html_content = models.TextField(blank=True)
 
     class Meta:
-        ordering = ['pub_date']
+        ordering = ['-pub_date']
 
     def __unicode__(self):
         return self.title
