@@ -8,8 +8,12 @@
        <div class="post">
            <a href="{{ post.get_absolute_url }}">
                <h2>{{ post.title }}</h2>
-           <a/>
-           <p>{{ post.description }}</p>
+           </a>
+
+	   <div class="post_content">
+               <p>{{ post.html_content|safe }}</p>
+           </div>
+
            <p>
                Posted on
                <time dateimte="{{ post.pub_date|date:"c" }}"> 

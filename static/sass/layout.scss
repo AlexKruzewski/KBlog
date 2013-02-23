@@ -1,4 +1,33 @@
 body
 {
-   background-color:hotpink;
+   background-color:#fff;
+
+   #header
+   {
+       width:100%;
+       background-color:#000;
+       margin-bottom:20px;
+       .title
+       {
+           margin:0 auto;
+           width:75%;
+           max-width:900px;
+           h1
+           {
+                padding:20px;
+           }
+       }
+   }
+
+   #content
+   {
+       width:75%;
+       max-width:900px;
+       margin:0 auto;
+
+       .post
+       {
+           margin:20px;
+       }
+   }
 }

@@ -1,4 +1,30 @@
 /* line 2, ../sass/layout.scss */
 body {
-  background-color: hotpink;
+  background-color: #fff;
+}
+/* line 6, ../sass/layout.scss */
+body #header {
+  width: 100%;
+  background-color: #000;
+  margin-bottom: 20px;
+}
+/* line 11, ../sass/layout.scss */
+body #header .title {
+  margin: 0 auto;
+  width: 75%;
+  max-width: 900px;
+}
+/* line 16, ../sass/layout.scss */
+body #header .title h1 {
+  padding: 20px;
+}
+/* line 23, ../sass/layout.scss */
+body #content {
+  width: 75%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+/* line 29, ../sass/layout.scss */
+body #content .post {
+  margin: 20px;
 }
