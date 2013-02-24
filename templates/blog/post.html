@@ -5,14 +5,19 @@
 {% block content %}
 <article>
     <header>
-        <h1> {{ post.title }} </h1>
+        <h2> {{ post.title }} </h2>
+        <p>category: {{ post.category }}</p>
+    </header>
+    <div class="post_content">
+        {{ post.html_content|safe }}
+    </div>
+    <footer>    
         <p>
             Posted on
             <time datetime="{{ post.pub_date|date:"c" }}">
             {{ post.pub_date }}
             </time>
         </p>
-    </header>
-    {{post.html_content|safe}}
+    </footer>
 </article>
 {% endblock %}

@@ -99,41 +99,45 @@ body #content article {
 }
 
 /* line 4, ../sass/content.scss */
-header h1 {
+header a {
+  text-decoration: none;
+}
+/* line 8, ../sass/content.scss */
+header a h1 {
   color: #fff;
   font-size: 2em;
   font-weight: bold;
 }
 
-/* line 14, ../sass/content.scss */
+/* line 19, ../sass/content.scss */
 #content article {
   border: 1px solid black;
   padding: 10px;
 }
-/* line 19, ../sass/content.scss */
+/* line 24, ../sass/content.scss */
 #content article header {
   background-color: #fff;
 }
-/* line 22, ../sass/content.scss */
+/* line 27, ../sass/content.scss */
 #content article header a {
   text-decoration: none;
 }
-/* line 26, ../sass/content.scss */
-#content article header a h2 {
+/* line 32, ../sass/content.scss */
+#content article header h2 {
   font-size: 1.4em;
   font-weight: bold;
   color: #000;
 }
-/* line 34, ../sass/content.scss */
+/* line 39, ../sass/content.scss */
 #content article header p {
   font-style: italic;
   margin: 3px;
 }
-/* line 43, ../sass/content.scss */
+/* line 48, ../sass/content.scss */
 #content article .post_content p {
   padding: 5px;
 }
-/* line 50, ../sass/content.scss */
+/* line 55, ../sass/content.scss */
 #content article footer p {
   font-style: italic;
   font-size: 0.7em;
