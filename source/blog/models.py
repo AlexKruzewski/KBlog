@@ -2,6 +2,15 @@ from django.db import models
 from django.core.urlresolvers import reverse
 import markdown
 
+
+CATEGORIES = (
+    ('technology', 'Gadgets and General Tech'),
+    ('polandliving', 'Life in Poland'),
+    ('coffee','Coffee and all Related'),
+    ('interesting', 'Interesting Stuff'),
+    ('ramble', 'Ramblings'),
+)
+
 class Post(models.Model):
     title = models.CharField(max_length=255)
     pub_date = models.DateTimeField('Date Published', auto_now=True)
@@ -9,6 +18,7 @@ class Post(models.Model):
     content = models.TextField()
     slug = models.SlugField(unique=True, max_length=255)
     published = models.BooleanField(default=False)
+    category = models.CharField(max_length=255, choices=CATEGORIES)
 
     html_content = models.TextField(blank=True)
 
