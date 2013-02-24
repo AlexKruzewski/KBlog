@@ -1,4 +1,5 @@
 import os
+import secrets
 
 SITE_ROOT = os.path.dirname(__file__)
 DEBUG = True
@@ -13,8 +14,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
         'NAME': 'KBlog',                      # Or path to database file if using sqlite3.
-        'USER': 'root',                      # Not used with sqlite3.
-        'PASSWORD': 'zxcvb321',                  # Not used with sqlite3.
+        'USER': secrets.DB_USER,                      # Not used with sqlite3.
+        'PASSWORD': secrets.DB_PASSWORD,                  # Not used with sqlite3.
         'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
         'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
     }
@@ -79,7 +80,7 @@ STATICFILES_FINDERS = (
 )
 
 # Make this unique, and don't share it with anybody.
-SECRET_KEY = ')i-##fqc#5&amp;hapj95=_8dk1c^=)ea$$1hvrip*@=-9!)!t)n*7'
+SECRET_KEY = secrets.SECRET_KEY
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
