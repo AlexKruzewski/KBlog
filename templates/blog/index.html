@@ -5,21 +5,28 @@
 {% block content %}
 
    {% for post in published_blog_posts %}
-       <div class="post">
-           <a href="{{ post.get_absolute_url }}">
-               <h2>{{ post.title }}</h2>
-           </a>
+       <article>
+           <header>
+                 <a href="{{ post.get_absolute_url }}">
+                     <h2>{{ post.title }}</h2>
+                 </a>
+                 <p>
+                     category: {{ post.category }}
+                 </p>
+           </header>
 
 	   <div class="post_content">
                <p>{{ post.html_content|safe }}</p>
            </div>
-
-           <p>
-               Posted on
-               <time dateimte="{{ post.pub_date|date:"c" }}"> 
-               {{ post.pub_date|date }}
-               </time>
-          </p>
-      </div>
+        
+           <footer>
+               <p>
+                   Posted on
+                   <time dateimte="{{ post.pub_date|date:"c" }}"> 
+                       {{ post.pub_date|date }}
+                   </time>
+              </p>
+           </footer>
+      </article>
    {% endfor %}
 {% endblock %}

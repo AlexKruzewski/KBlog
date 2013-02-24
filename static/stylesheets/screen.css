@@ -72,19 +72,19 @@ body {
   background-color: #fff;
 }
 /* line 6, ../sass/layout.scss */
-body #header {
+body header {
   width: 100%;
   background-color: #000;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 /* line 11, ../sass/layout.scss */
-body #header .title {
+body header .title {
   margin: 0 auto;
   width: 75%;
   max-width: 900px;
 }
 /* line 16, ../sass/layout.scss */
-body #header .title h1 {
+body header .title h1 {
   padding: 20px;
 }
 /* line 23, ../sass/layout.scss */
@@ -94,33 +94,47 @@ body #content {
   margin: 0 auto;
 }
 /* line 29, ../sass/layout.scss */
-body #content .post {
+body #content article {
   margin: 20px;
 }
 
 /* line 4, ../sass/content.scss */
-#header h1 {
+header h1 {
   color: #fff;
   font-size: 2em;
   font-weight: bold;
 }
 
 /* line 14, ../sass/content.scss */
-#content .post {
+#content article {
   border: 1px solid black;
   padding: 10px;
 }
-/* line 18, ../sass/content.scss */
-#content .post a {
-  text-decoration: none;
+/* line 19, ../sass/content.scss */
+#content article header {
+  background-color: #fff;
 }
 /* line 22, ../sass/content.scss */
-#content .post a h2 {
+#content article header a {
+  text-decoration: none;
+}
+/* line 26, ../sass/content.scss */
+#content article header a h2 {
   font-size: 1.4em;
   font-weight: bold;
   color: #000;
 }
-/* line 31, ../sass/content.scss */
-#content .post .post_content p {
+/* line 34, ../sass/content.scss */
+#content article header p {
+  font-style: italic;
+  margin: 3px;
+}
+/* line 43, ../sass/content.scss */
+#content article .post_content p {
   padding: 5px;
+}
+/* line 50, ../sass/content.scss */
+#content article footer p {
+  font-style: italic;
+  font-size: 0.7em;
 }
