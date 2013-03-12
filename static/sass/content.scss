@@ -43,11 +43,26 @@ header
        }
 
        .post_content
-       { 
+       {
+
+            h3
+            {
+                 font-weight:bold;
+                 font-size:1em;
+                 margin: 5px 0px;
+            }
+ 
             p
             {
                  padding:5px;
             }
+
+            ul
+            {
+                 list-style-type: disc;
+                 margin-left:25px;
+            }
+
        }
        footer
        {
