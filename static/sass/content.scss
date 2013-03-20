@@ -11,7 +11,7 @@ header
        
        h1
        {
-           color:#fff;
+           color:#15bae8;
            font-size:2em;
            font-weight:bold;
        }
@@ -22,12 +22,10 @@ header
 {
    article
    {
-       border:1px solid #000;
        padding:10px;
 
        header
        {
-           background-color:#fff;
            a
            {
                text-decoration:none;
@@ -36,7 +34,7 @@ header
            h2
            {
                font-size:1.8em;
-               color:#000;  
+               color:rgb(31, 138, 168);  
            }
 
            p
@@ -44,6 +42,7 @@ header
                font-style: italic;
                margin:3px;
 	       font-size:0.8em;
+	       color:#fff;
            }
        }
 
@@ -54,24 +53,43 @@ header
             {
                  font-size:1.4em;
                  margin: 10px 0px;
+		 color:#15bae8;
             }
  
             p
             {
                  padding:5px;
 		 line-height: 25px;
+                 color:#fff;
             }
 
             ul
             {
                  list-style-type: disc;
                  margin-left:25px;
+		 color:#fff;
+
+		 li
+		 {
+			line-height:25px;
+                 }
             }
 
             img
 	    {
 		 height:auto;
 		 width:100%;
+            }
+
+	    a
+	    {
+		 color:#1f8aa8;
+                 text-decoration: none;
+
+                 &:hover
+                 {
+                 	color:#15bae8;
+                 }
             }
 
        }
@@ -81,6 +99,7 @@ header
            {
                font-style:italic;
                font-size:0.7em;
+		color:#fff;
            }
        }
    }

@@ -1,11 +1,10 @@
 body
 {
-   background-color:#fff;
+   background-color:rgb(29, 29, 29);
 
    header
    {
        width:100%;
-       background-color:#000;
        margin-bottom:10px;
        .title
        {
@@ -28,6 +27,8 @@ body
        article
        {
            margin:20px;
+	   border-bottom: 1px solid #1f8aa8;
+	   padding-bottom: 30px;
        }
    }
 }

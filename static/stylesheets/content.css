@@ -9,57 +9,70 @@ header a {
 }
 /* line 13, ../sass/content.scss */
 header a h1 {
-  color: #fff;
+  color: #15bae8;
   font-size: 2em;
   font-weight: bold;
 }
 
 /* line 24, ../sass/content.scss */
 #content article {
-  border: 1px solid black;
   padding: 10px;
 }
-/* line 29, ../sass/content.scss */
-#content article header {
-  background-color: #fff;
-}
-/* line 32, ../sass/content.scss */
+/* line 30, ../sass/content.scss */
 #content article header a {
   text-decoration: none;
 }
-/* line 37, ../sass/content.scss */
+/* line 35, ../sass/content.scss */
 #content article header h2 {
   font-size: 1.8em;
-  color: #000;
+  color: #1f8aa8;
 }
-/* line 43, ../sass/content.scss */
+/* line 41, ../sass/content.scss */
 #content article header p {
   font-style: italic;
   margin: 3px;
   font-size: 0.8em;
+  color: #fff;
 }
-/* line 54, ../sass/content.scss */
+/* line 53, ../sass/content.scss */
 #content article .post_content h3 {
   font-size: 1.4em;
   margin: 10px 0px;
+  color: #15bae8;
 }
 /* line 60, ../sass/content.scss */
 #content article .post_content p {
   padding: 5px;
   line-height: 25px;
+  color: #fff;
 }
-/* line 66, ../sass/content.scss */
+/* line 67, ../sass/content.scss */
 #content article .post_content ul {
   list-style-type: disc;
   margin-left: 25px;
+  color: #fff;
 }
-/* line 72, ../sass/content.scss */
+/* line 73, ../sass/content.scss */
+#content article .post_content ul li {
+  line-height: 25px;
+}
+/* line 79, ../sass/content.scss */
 #content article .post_content img {
   height: auto;
   width: 100%;
 }
-/* line 81, ../sass/content.scss */
+/* line 85, ../sass/content.scss */
+#content article .post_content a {
+  color: #1f8aa8;
+  text-decoration: none;
+}
+/* line 90, ../sass/content.scss */
+#content article .post_content a:hover {
+  color: #15bae8;
+}
+/* line 99, ../sass/content.scss */
 #content article footer p {
   font-style: italic;
   font-size: 0.7em;
+  color: #fff;
 }

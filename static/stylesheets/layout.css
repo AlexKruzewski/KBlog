@@ -1,30 +1,31 @@
 /* line 2, ../sass/layout.scss */
 body {
-  background-color: #fff;
+  background-color: #1d1d1d;
 }
 /* line 6, ../sass/layout.scss */
 body header {
   width: 100%;
-  background-color: #000;
   margin-bottom: 10px;
 }
-/* line 11, ../sass/layout.scss */
+/* line 10, ../sass/layout.scss */
 body header .title {
   margin: 0 auto;
   width: 75%;
   max-width: 900px;
 }
-/* line 16, ../sass/layout.scss */
+/* line 15, ../sass/layout.scss */
 body header .title h1 {
   padding: 20px;
 }
-/* line 23, ../sass/layout.scss */
+/* line 22, ../sass/layout.scss */
 body #content {
   width: 75%;
   max-width: 900px;
   margin: 0 auto;
 }
-/* line 29, ../sass/layout.scss */
+/* line 28, ../sass/layout.scss */
 body #content article {
   margin: 20px;
+  border-bottom: 1px solid #1f8aa8;
+  padding-bottom: 30px;
 }
