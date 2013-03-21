@@ -1,31 +1,115 @@
-/* line 2, ../sass/layout.scss */
-body {
-  background-color: #1d1d1d;
-}
-/* line 6, ../sass/layout.scss */
-body header {
-  width: 100%;
-  margin-bottom: 10px;
-}
-/* line 10, ../sass/layout.scss */
-body header .title {
-  margin: 0 auto;
-  width: 75%;
-  max-width: 900px;
-}
-/* line 15, ../sass/layout.scss */
-body header .title h1 {
-  padding: 20px;
-}
-/* line 22, ../sass/layout.scss */
-body #content {
-  width: 75%;
-  max-width: 900px;
-  margin: 0 auto;
-}
-/* line 28, ../sass/layout.scss */
-body #content article {
-  margin: 20px;
-  border-bottom: 1px solid #1f8aa8;
-  padding-bottom: 30px;
-}
+/*
+Syntax error: Undefined mixin 'rhythm'.
+        on line 18 of /home/vagrant/Projects/KBlog/static/sass/layout.scss, in `rhythm'
+        from line 18 of /home/vagrant/Projects/KBlog/static/sass/layout.scss
+
+Backtrace:
+/home/vagrant/Projects/KBlog/static/sass/layout.scss:18:in `rhythm'
+/home/vagrant/Projects/KBlog/static/sass/layout.scss:18
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:251:in `visit_mixin'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:98:in `visit'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:53:in `map'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:107:in `visit_children'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:119:in `with_environment'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:106:in `visit_children'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:318:in `visit_rule'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:98:in `visit'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:53:in `map'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:107:in `visit_children'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:119:in `with_environment'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:106:in `visit_children'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:318:in `visit_rule'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:98:in `visit'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:53:in `map'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:107:in `visit_children'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:119:in `with_environment'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:106:in `visit_children'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:318:in `visit_rule'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:98:in `visit'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:53:in `map'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:107:in `visit_children'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:119:in `with_environment'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:106:in `visit_children'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:318:in `visit_rule'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:98:in `visit'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:53:in `map'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:107:in `visit_children'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:119:in `with_environment'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:106:in `visit_children'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:126:in `visit_root'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:98:in `visit'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:7:in `send'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:7:in `visit'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/root_node.rb:20:in `render'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/engine.rb:315:in `_render'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/engine.rb:262:in `render'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `compile'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `compile'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `run'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `run'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
+/opt/vagrant_ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `to_proc'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `call'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `run_callback'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/fssm-0.2.10/lib/fssm/path.rb:55:in `callback_action'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/fssm-0.2.10/lib/fssm/path.rb:35:in `update'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/fssm-0.2.10/lib/fssm/state/directory.rb:39:in `modified'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `each'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `modified'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/fssm-0.2.10/lib/fssm/state/directory.rb:18:in `refresh'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `run'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `each'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `run'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `loop'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `run'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/fssm-0.2.10/lib/fssm/monitor.rb:26:in `run'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/fssm-0.2.10/lib/fssm.rb:70:in `monitor'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:87:in `perform'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/bin/compass:30
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/bin/compass:44:in `call'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/bin/compass:44
+/opt/vagrant_ruby/bin/compass:23:in `load'
+/opt/vagrant_ruby/bin/compass:23
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Undefined mixin 'rhythm'.\A         on line 18 of /home/vagrant/Projects/KBlog/static/sass/layout.scss, in `rhythm'\A         from line 18 of /home/vagrant/Projects/KBlog/static/sass/layout.scss"; }

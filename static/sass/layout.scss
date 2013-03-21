@@ -1,6 +1,6 @@
 body
 {
-   background-color:rgb(29, 29, 29);
+   background-color:rgb(41, 41, 41);
 
    header
    {
@@ -11,9 +11,10 @@ body
            margin:0 auto;
            width:75%;
            max-width:900px;
-           h1
-           {
-                padding:20px;
+
+	   h1
+	   {
+		@include rhythm(1,0,0,1,72px)
            }
        }
    }
@@ -26,8 +27,7 @@ body
 
        article
        {
-           margin:20px;
-	   border-bottom: 1px solid #1f8aa8;
+           margin:10px 0px 40px 0px;
 	   padding-bottom: 30px;
        }
    }

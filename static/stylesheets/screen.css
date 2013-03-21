@@ -69,7 +69,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 2, ../sass/layout.scss */
 body {
-  background-color: #1d1d1d;
+  background-color: #292929;
 }
 /* line 6, ../sass/layout.scss */
 body header {
@@ -82,98 +82,118 @@ body header .title {
   width: 75%;
   max-width: 900px;
 }
-/* line 15, ../sass/layout.scss */
+/* line 16, ../sass/layout.scss */
 body header .title h1 {
-  padding: 20px;
+  margin-top: 0.33333em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 0.33333em;
 }
-/* line 22, ../sass/layout.scss */
+/* line 23, ../sass/layout.scss */
 body #content {
   width: 75%;
   max-width: 900px;
   margin: 0 auto;
 }
-/* line 28, ../sass/layout.scss */
+/* line 29, ../sass/layout.scss */
 body #content article {
-  margin: 20px;
-  border-bottom: 1px solid #1f8aa8;
+  margin: 10px 0px 40px 0px;
   padding-bottom: 30px;
 }
 
-/* line 2, ../sass/content.scss */
-body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+/* line 61, ../../../../../../opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+* html {
+  font-size: 106.25%;
 }
 
-/* line 9, ../sass/content.scss */
+/* line 64, ../../../../../../opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 17px;
+  line-height: 1.52941em;
+}
+
+/* line 10, ../sass/content.scss */
+body {
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+/* line 17, ../sass/content.scss */
 header a {
   text-decoration: none;
 }
-/* line 13, ../sass/content.scss */
+/* line 21, ../sass/content.scss */
 header a h1 {
   color: #15bae8;
-  font-size: 4em;
+  font-size: 4.23529em;
+  line-height: 1.08333em;
   font-family: "Roboto Condensed", sans-serif;
 }
 
-/* line 24, ../sass/content.scss */
-#content article {
-  padding: 10px;
-}
-/* line 30, ../sass/content.scss */
+/* line 36, ../sass/content.scss */
 #content article header a {
   text-decoration: none;
 }
-/* line 35, ../sass/content.scss */
-#content article header h2 {
-  font-size: 1.8em;
-  color: #15bae8;
-}
 /* line 41, ../sass/content.scss */
-#content article header p {
-  font-style: italic;
-  margin: 3px;
-  font-size: 0.8em;
-  color: #fff;
+#content article header h2 {
+  font-size: 1.88235em;
+  line-height: 1.625em;
+  color: #e8e8e8;
+  border-bottom: 3px solid #1f8aa8;
+  font-family: "Roboto Condensed", sans-serif;
 }
-/* line 53, ../sass/content.scss */
+/* line 51, ../sass/content.scss */
+#content article .post_content {
+  padding-right: 90px;
+}
+/* line 54, ../sass/content.scss */
 #content article .post_content h3 {
-  font-size: 1.4em;
-  margin: 10px 0px;
+  font-size: 1.41176em;
+  line-height: 2.16667em;
   color: #1f8aa8;
+  font-family: "Roboto Condensed", sans-serif;
 }
-/* line 60, ../sass/content.scss */
+/* line 61, ../sass/content.scss */
 #content article .post_content p {
-  padding: 5px;
-  line-height: 25px;
-  color: #fff;
+  margin-top: 0em;
+  padding-top: 0.45882em;
+  padding-bottom: 0.45882em;
+  margin-bottom: 0em;
+  color: #e8e8e8;
 }
 /* line 67, ../sass/content.scss */
 #content article .post_content ul {
   list-style-type: disc;
   margin-left: 25px;
-  color: #fff;
+  color: #e8e8e8;
 }
-/* line 73, ../sass/content.scss */
-#content article .post_content ul li {
-  line-height: 25px;
-}
-/* line 79, ../sass/content.scss */
+/* line 74, ../sass/content.scss */
 #content article .post_content img {
   height: auto;
   width: 100%;
 }
-/* line 85, ../sass/content.scss */
+/* line 80, ../sass/content.scss */
 #content article .post_content a {
   color: #1f8aa8;
   text-decoration: none;
 }
-/* line 90, ../sass/content.scss */
+/* line 85, ../sass/content.scss */
 #content article .post_content a:hover {
   color: #15bae8;
 }
-/* line 99, ../sass/content.scss */
+/* line 94, ../sass/content.scss */
 #content article footer p {
   font-style: italic;
-  font-size: 0.7em;
+  color: #1f8aa8;
+  font-size: 0.70588em;
+  line-height: 2.16667em;
+}
+
+/* line 104, ../sass/content.scss */
+.white {
   color: #fff;
+}
+
+/* line 109, ../sass/content.scss */
+.bold {
+  font-weight: bold;
 }

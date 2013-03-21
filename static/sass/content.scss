@@ -1,6 +1,14 @@
+$base-font-size: 17px;
+$base-line-height: 26px;
+$main-blue: #15bae8;
+$sub-blue: #1f8aa8;
+$content-beige: #E8E8E8;
+
+@include establish-baseline;
+
 body
 {
-       font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
 
 header
@@ -11,9 +19,9 @@ header
        
        h1
        {
-           color:#15bae8;
-           font-size:4em;
-           font-family: 'Roboto Condensed', sans-serif;;
+           color:$main-blue;
+	   @include adjust-font-size-to(72px);
+           font-family: 'Roboto Condensed', sans-serif;
        }
    }
 }
@@ -22,8 +30,6 @@ header
 {
    article
    {
-       padding:10px;
-
        header
        {
            a
@@ -33,46 +39,35 @@ header
         
            h2
            {
-               font-size:1.8em;
-               color:#15bae8;  
+               @include adjust-font-size-to(32px);
+               color:$content-beige;
+	       border-bottom:3px solid $sub-blue;
+	       font-family:"Roboto Condensed", sans-serif;  
            }
 
-           p
-           {
-               font-style: italic;
-               margin:3px;
-	       font-size:0.8em;
-	       color:#fff;
-           }
        }
 
        .post_content
        {
-
+	    padding-right:90px;	    
             h3
             {
-                 font-size:1.4em;
-                 margin: 10px 0px;
-		 color:#1f8aa8;
+		 @include adjust-font-size-to(24px);
+		 color:$sub-blue;
+		 font-family:"Roboto Condensed", sans-serif;
             }
  
             p
             {
-                 padding:5px;
-		 line-height: 25px;
-                 color:#fff;
+		 @include rhythm(0, 0.3, 0.3, 0, $base-font-size);
+                 color:$content-beige;
             }
 
             ul
             {
                  list-style-type: disc;
                  margin-left:25px;
-		 color:#fff;
-
-		 li
-		 {
-			line-height:25px;
-                 }
+		 color:$content-beige;
             }
 
             img
@@ -83,12 +78,12 @@ header
 
 	    a
 	    {
-		 color:#1f8aa8;
+		 color:$sub-blue;
                  text-decoration: none;
 
                  &:hover
                  {
-                 	color:#15bae8;
+                 	color:$main-blue;
                  }
             }
 
@@ -98,9 +93,19 @@ header
            p
            {
                font-style:italic;
-               font-size:0.7em;
-		color:#fff;
+	       color:$sub-blue;
+               @include adjust-font-size-to(12px);
            }
        }
    }
+}
+
+.white
+{
+   color:#fff;
+}
+
+.bold
+{
+   font-weight:bold;
 }

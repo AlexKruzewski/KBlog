@@ -1,78 +1,71 @@
-/* line 2, ../sass/content.scss */
-body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
+/*
+Syntax error: Undefined mixin 'establish-baseline'.
+        on line 7 of /home/vagrant/Projects/KBlog/static/sass/content.scss, in `establish-baseline'
+        from line 7 of /home/vagrant/Projects/KBlog/static/sass/content.scss
 
-/* line 9, ../sass/content.scss */
-header a {
-  text-decoration: none;
-}
-/* line 13, ../sass/content.scss */
-header a h1 {
-  color: #15bae8;
-  font-size: 4em;
-  font-family: "Roboto Condensed", sans-serif;
-}
-
-/* line 24, ../sass/content.scss */
-#content article {
-  padding: 10px;
-}
-/* line 30, ../sass/content.scss */
-#content article header a {
-  text-decoration: none;
-}
-/* line 35, ../sass/content.scss */
-#content article header h2 {
-  font-size: 1.8em;
-  color: #15bae8;
-}
-/* line 41, ../sass/content.scss */
-#content article header p {
-  font-style: italic;
-  margin: 3px;
-  font-size: 0.8em;
-  color: #fff;
-}
-/* line 53, ../sass/content.scss */
-#content article .post_content h3 {
-  font-size: 1.4em;
-  margin: 10px 0px;
-  color: #1f8aa8;
-}
-/* line 60, ../sass/content.scss */
-#content article .post_content p {
-  padding: 5px;
-  line-height: 25px;
-  color: #fff;
-}
-/* line 67, ../sass/content.scss */
-#content article .post_content ul {
-  list-style-type: disc;
-  margin-left: 25px;
-  color: #fff;
-}
-/* line 73, ../sass/content.scss */
-#content article .post_content ul li {
-  line-height: 25px;
-}
-/* line 79, ../sass/content.scss */
-#content article .post_content img {
-  height: auto;
-  width: 100%;
-}
-/* line 85, ../sass/content.scss */
-#content article .post_content a {
-  color: #1f8aa8;
-  text-decoration: none;
-}
-/* line 90, ../sass/content.scss */
-#content article .post_content a:hover {
-  color: #15bae8;
-}
-/* line 99, ../sass/content.scss */
-#content article footer p {
-  font-style: italic;
-  font-size: 0.7em;
-  color: #fff;
-}
+Backtrace:
+/home/vagrant/Projects/KBlog/static/sass/content.scss:7:in `establish-baseline'
+/home/vagrant/Projects/KBlog/static/sass/content.scss:7
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:251:in `visit_mixin'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:98:in `visit'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:53:in `map'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:107:in `visit_children'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:119:in `with_environment'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:106:in `visit_children'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:126:in `visit_root'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:98:in `visit'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:7:in `send'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:7:in `visit'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/root_node.rb:20:in `render'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/engine.rb:315:in `_render'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/engine.rb:262:in `render'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `compile'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `compile'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `run'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `run'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
+/opt/vagrant_ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `to_proc'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `call'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `run_callback'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/fssm-0.2.10/lib/fssm/path.rb:55:in `callback_action'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/fssm-0.2.10/lib/fssm/path.rb:35:in `update'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/fssm-0.2.10/lib/fssm/state/directory.rb:39:in `modified'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `each'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `modified'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/fssm-0.2.10/lib/fssm/state/directory.rb:18:in `refresh'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `run'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `each'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `run'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `loop'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `run'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/fssm-0.2.10/lib/fssm/monitor.rb:26:in `run'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/fssm-0.2.10/lib/fssm.rb:70:in `monitor'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:87:in `perform'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/bin/compass:30
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/bin/compass:44:in `call'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/bin/compass:44
+/opt/vagrant_ruby/bin/compass:23:in `load'
+/opt/vagrant_ruby/bin/compass:23
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Undefined mixin 'establish-baseline'.\A         on line 7 of /home/vagrant/Projects/KBlog/static/sass/content.scss, in `establish-baseline'\A         from line 7 of /home/vagrant/Projects/KBlog/static/sass/content.scss"; }
