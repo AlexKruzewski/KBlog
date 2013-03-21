@@ -4,4 +4,5 @@
 local_settings.py
 secrets.py
 *.swp
-/.sass-cache/
+.sass-cache/
+build/
