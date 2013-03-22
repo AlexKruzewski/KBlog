@@ -1,11 +1,11 @@
 /*
 Syntax error: Undefined mixin 'establish-baseline'.
-        on line 7 of /home/vagrant/Projects/KBlog/static/sass/content.scss, in `establish-baseline'
-        from line 7 of /home/vagrant/Projects/KBlog/static/sass/content.scss
+        on line 8 of /home/vagrant/Projects/KBlog/static/sass/content.scss, in `establish-baseline'
+        from line 8 of /home/vagrant/Projects/KBlog/static/sass/content.scss
 
 Backtrace:
-/home/vagrant/Projects/KBlog/static/sass/content.scss:7:in `establish-baseline'
-/home/vagrant/Projects/KBlog/static/sass/content.scss:7
+/home/vagrant/Projects/KBlog/static/sass/content.scss:8:in `establish-baseline'
+/home/vagrant/Projects/KBlog/static/sass/content.scss:8
 /opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:251:in `visit_mixin'
 /opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
 /opt/vagrant_ruby/lib/ruby/gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
@@ -68,4 +68,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined mixin 'establish-baseline'.\A         on line 7 of /home/vagrant/Projects/KBlog/static/sass/content.scss, in `establish-baseline'\A         from line 7 of /home/vagrant/Projects/KBlog/static/sass/content.scss"; }
+  content: "Syntax error: Undefined mixin 'establish-baseline'.\A         on line 8 of /home/vagrant/Projects/KBlog/static/sass/content.scss, in `establish-baseline'\A         from line 8 of /home/vagrant/Projects/KBlog/static/sass/content.scss"; }

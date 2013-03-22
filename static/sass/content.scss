@@ -4,6 +4,7 @@ $main-blue: #15bae8;
 $sub-blue: #1f8aa8;
 $content-beige: #E8E8E8;
 
+@import "compass/css3/border-radius";
 @include establish-baseline;
 
 body
@@ -86,6 +87,32 @@ header
                  	color:$main-blue;
                  }
             }
+	    
+	    blockquote
+	    {
+		font-family: Georgia, serif;
+		font-style: italic;
+		width:500px;
+		position:relative;
+		background-color:rgb(58, 58, 58);
+		padding:0px 48px;
+		margin-left:20px;
+		@include border-radius(10px);
+		@include adjust-font-size-to($base-font-size);
+		@include rhythm(1,0.23,0.23,1, $base-font-size);	
+			
+		&:before
+		{
+			color: $main-blue;
+			content: "\201C";
+			@include adjust-font-size-to(82px);
+			position:absolute;
+			left:8px;
+			top:-8px;
+			
+		}
+            }
+
 
        }
        footer
