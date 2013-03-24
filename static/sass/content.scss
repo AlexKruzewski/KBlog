@@ -54,7 +54,7 @@ header
             h3
             {
 		 @include adjust-font-size-to(24px);
-		 color:$sub-blue;
+		 color:$main-blue;
 		 font-family:"Roboto Condensed", sans-serif;
             }
  
@@ -79,12 +79,12 @@ header
 
 	    a
 	    {
-		 color:$sub-blue;
+		 color:$main-blue;
                  text-decoration: none;
 
                  &:hover
                  {
-                 	color:$main-blue;
+                 	color:$sub-blue;
                  }
             }
 	    

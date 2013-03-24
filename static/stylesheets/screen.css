@@ -69,7 +69,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 2, ../sass/layout.scss */
 body {
-  background-color: #292929;
+  background-color: #333333;
 }
 /* line 6, ../sass/layout.scss */
 body header {
@@ -149,7 +149,7 @@ header a h1 {
 #content article .post_content h3 {
   font-size: 1.41176em;
   line-height: 2.16667em;
-  color: #1f8aa8;
+  color: #15bae8;
   font-family: "Roboto Condensed", sans-serif;
 }
 /* line 62, ../sass/content.scss */
@@ -173,12 +173,12 @@ header a h1 {
 }
 /* line 81, ../sass/content.scss */
 #content article .post_content a {
-  color: #1f8aa8;
+  color: #15bae8;
   text-decoration: none;
 }
 /* line 86, ../sass/content.scss */
 #content article .post_content a:hover {
-  color: #15bae8;
+  color: #1f8aa8;
 }
 /* line 92, ../sass/content.scss */
 #content article .post_content blockquote {
