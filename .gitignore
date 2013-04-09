@@ -6,3 +6,4 @@ secrets.py
 *.swp
 .sass-cache/
 build/
+pip-log.txt
