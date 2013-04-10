@@ -7,3 +7,4 @@ secrets.py
 .sass-cache/
 build/
 pip-log.txt
+blog-images/

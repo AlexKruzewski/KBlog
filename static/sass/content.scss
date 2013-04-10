@@ -127,6 +127,26 @@ header
    }
 }
 
+#footer
+{
+   padding:10px 0;
+   p
+   {
+       color:$content-beige;
+
+   }
+   a
+   {
+	color:$content-beige;
+	text-decoration:none;
+
+	&:hover
+	{
+	    color:$sub-blue;
+	}
+   }
+}
+
 .white
 {
    color:#fff;

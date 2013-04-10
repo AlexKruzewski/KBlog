@@ -67,38 +67,85 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 2, ../sass/layout.scss */
+/* line 4, ../sass/layout.scss */
 body {
   background-color: #333333;
 }
-/* line 6, ../sass/layout.scss */
+/* line 8, ../sass/layout.scss */
 body header {
   width: 100%;
   margin-bottom: 10px;
 }
-/* line 10, ../sass/layout.scss */
+/* line 12, ../sass/layout.scss */
 body header .title {
   margin: 0 auto;
   width: 75%;
   max-width: 900px;
 }
-/* line 16, ../sass/layout.scss */
+/* line 18, ../sass/layout.scss */
 body header .title h1 {
   margin-top: 0.33333em;
   padding-top: 0em;
   padding-bottom: 0em;
   margin-bottom: 0.33333em;
 }
-/* line 23, ../sass/layout.scss */
+/* line 25, ../sass/layout.scss */
 body #content {
   width: 75%;
   max-width: 900px;
   margin: 0 auto;
 }
-/* line 29, ../sass/layout.scss */
+/* line 31, ../sass/layout.scss */
 body #content article {
   margin: 10px 0px 40px 0px;
   padding-bottom: 30px;
+}
+/* line 39, ../sass/layout.scss */
+body #footer {
+  width: 100%;
+  background-color: #3d3d3d;
+}
+/* line 43, ../sass/layout.scss */
+body #footer .content {
+  width: 75%;
+  max-width: 900px;
+  margin: 0 auto;
+  postion: relative;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 51, ../sass/layout.scss */
+body #footer .content img {
+  float: left;
+}
+/* line 55, ../sass/layout.scss */
+body #footer .content p {
+  max-width: 57%;
+  float: left;
+  margin: 10px 10px;
+}
+/* line 62, ../sass/layout.scss */
+body #footer .content #social {
+  float: left;
+}
+/* line 65, ../sass/layout.scss */
+body #footer .content #social li {
+  margin-top: 10px;
+}
+/* line 71, ../sass/layout.scss */
+body #footer .content #social .twitter,
+body #footer .content #social .fb {
+  display: block;
+  height: 35px;
+  padding-left: 35px;
+}
+/* line 78, ../sass/layout.scss */
+body #footer .content #social .fb {
+  background: url(/media/style/fb-icon.png) no-repeat 0 0;
+}
+/* line 83, ../sass/layout.scss */
+body #footer .content #social .twitter {
+  background: url(/media/style/twitter-icon.png) no-repeat 0 0;
 }
 
 /* line 61, ../../../../../../opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
@@ -220,11 +267,29 @@ header a h1 {
 }
 
 /* line 131, ../sass/content.scss */
+#footer {
+  padding: 10px 0;
+}
+/* line 134, ../sass/content.scss */
+#footer p {
+  color: #e8e8e8;
+}
+/* line 139, ../sass/content.scss */
+#footer a {
+  color: #e8e8e8;
+  text-decoration: none;
+}
+/* line 144, ../sass/content.scss */
+#footer a:hover {
+  color: #1f8aa8;
+}
+
+/* line 151, ../sass/content.scss */
 .white {
   color: #fff;
 }
 
-/* line 136, ../sass/content.scss */
+/* line 156, ../sass/content.scss */
 .bold {
   font-weight: bold;
 }

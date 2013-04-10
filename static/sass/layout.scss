@@ -1,3 +1,5 @@
+@import "compass/utilities/general/clearfix";
+
 body
 {
    background-color:rgb(51, 51, 51);
@@ -30,5 +32,58 @@ body
            margin:10px 0px 40px 0px;
 	   padding-bottom: 30px;
        }
+
+   }
+
+  #footer
+   {
+	width:100%;
+        background-color: rgb(61,61,61);
+        .content
+	{
+	    width:75%;
+	    max-width:900px;
+	    margin:0 auto;
+	    postion:relative;
+	    @include clearfix;
+
+	    img
+	    {
+		float:left; 
+            }
+            p
+            {
+                max-width:57%;
+		float:left;
+		margin:10px 10px;
+            }
+	
+		#social
+		{
+	    	    float:left;
+		    li
+		    {
+			margin-top:10px;
+		    }
+
+		    .twitter,
+		    .fb
+		    {
+			display:block;
+			height:35px;
+			padding-left:35px;
+		    }
+
+		    .fb
+		    {
+			background:url(/media/style/fb-icon.png) no-repeat 0 0;
+		    }
+		
+		    .twitter
+		    {
+			background:url(/media/style/twitter-icon.png) no-repeat 0 0;
+   		    }
+		}
+	}
    }
 }
