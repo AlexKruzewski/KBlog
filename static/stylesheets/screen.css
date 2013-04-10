@@ -117,33 +117,34 @@ body #footer .content {
 /* line 51, ../sass/layout.scss */
 body #footer .content img {
   float: left;
+  margin-top: 10px;
 }
-/* line 55, ../sass/layout.scss */
-body #footer .content p {
+/* line 56, ../sass/layout.scss */
+body #footer .content #about-me {
   max-width: 57%;
   float: left;
-  margin: 10px 10px;
+  margin: 10px 2%;
 }
-/* line 62, ../sass/layout.scss */
+/* line 63, ../sass/layout.scss */
 body #footer .content #social {
   float: left;
 }
-/* line 65, ../sass/layout.scss */
+/* line 66, ../sass/layout.scss */
 body #footer .content #social li {
   margin-top: 10px;
 }
-/* line 71, ../sass/layout.scss */
+/* line 72, ../sass/layout.scss */
 body #footer .content #social .twitter,
 body #footer .content #social .fb {
   display: block;
   height: 35px;
-  padding-left: 35px;
+  padding: 4px 0 0 35px;
 }
-/* line 78, ../sass/layout.scss */
+/* line 79, ../sass/layout.scss */
 body #footer .content #social .fb {
   background: url(/media/style/fb-icon.png) no-repeat 0 0;
 }
-/* line 83, ../sass/layout.scss */
+/* line 84, ../sass/layout.scss */
 body #footer .content #social .twitter {
   background: url(/media/style/twitter-icon.png) no-repeat 0 0;
 }
