@@ -1,4 +1,5 @@
 @import "compass/utilities/general/clearfix";
+@import "compass/css3/box-shadow";
 
 body
 {
@@ -39,7 +40,8 @@ body
    {
 	width:100%;
         background-color: rgb(61,61,61);
-        .content
+        @include single-box-shadow;
+	.content
 	{
 	    width:75%;
 	    max-width:900px;

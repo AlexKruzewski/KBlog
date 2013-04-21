@@ -67,45 +67,48 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 4, ../sass/layout.scss */
+/* line 5, ../sass/layout.scss */
 body {
   background-color: #333333;
 }
-/* line 8, ../sass/layout.scss */
+/* line 9, ../sass/layout.scss */
 body header {
   width: 100%;
   margin-bottom: 10px;
 }
-/* line 12, ../sass/layout.scss */
+/* line 13, ../sass/layout.scss */
 body header .title {
   margin: 0 auto;
   width: 75%;
   max-width: 900px;
 }
-/* line 18, ../sass/layout.scss */
+/* line 19, ../sass/layout.scss */
 body header .title h1 {
   margin-top: 0.33333em;
   padding-top: 0em;
   padding-bottom: 0em;
   margin-bottom: 0.33333em;
 }
-/* line 25, ../sass/layout.scss */
+/* line 26, ../sass/layout.scss */
 body #content {
   width: 75%;
   max-width: 900px;
   margin: 0 auto;
 }
-/* line 31, ../sass/layout.scss */
+/* line 32, ../sass/layout.scss */
 body #content article {
   margin: 10px 0px 40px 0px;
   padding-bottom: 30px;
 }
-/* line 39, ../sass/layout.scss */
+/* line 40, ../sass/layout.scss */
 body #footer {
   width: 100%;
   background-color: #3d3d3d;
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
 }
-/* line 43, ../sass/layout.scss */
+/* line 45, ../sass/layout.scss */
 body #footer .content {
   width: 75%;
   max-width: 900px;
@@ -114,26 +117,26 @@ body #footer .content {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 51, ../sass/layout.scss */
+/* line 53, ../sass/layout.scss */
 body #footer .content img {
   float: left;
   margin-top: 10px;
 }
-/* line 56, ../sass/layout.scss */
+/* line 58, ../sass/layout.scss */
 body #footer .content #about-me {
   max-width: 57%;
   float: left;
   margin: 10px 2%;
 }
-/* line 63, ../sass/layout.scss */
+/* line 65, ../sass/layout.scss */
 body #footer .content #social {
   float: left;
 }
-/* line 66, ../sass/layout.scss */
+/* line 68, ../sass/layout.scss */
 body #footer .content #social li {
   margin-top: 10px;
 }
-/* line 74, ../sass/layout.scss */
+/* line 76, ../sass/layout.scss */
 body #footer .content #social .rss,
 body #footer .content #social .twitter,
 body #footer .content #social .fb {
@@ -141,15 +144,15 @@ body #footer .content #social .fb {
   height: 35px;
   padding: 4px 0 0 35px;
 }
-/* line 81, ../sass/layout.scss */
+/* line 83, ../sass/layout.scss */
 body #footer .content #social .fb {
   background: url(/media/style/fb-icon.png) no-repeat 0 0;
 }
-/* line 86, ../sass/layout.scss */
+/* line 88, ../sass/layout.scss */
 body #footer .content #social .twitter {
   background: url(/media/style/twitter-icon.png) no-repeat 0 0;
 }
-/* line 91, ../sass/layout.scss */
+/* line 93, ../sass/layout.scss */
 body #footer .content #social .rss {
   background: url(/media/style/rss.png) no-repeat 0 0;
 }
