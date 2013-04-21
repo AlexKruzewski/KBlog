@@ -11,7 +11,9 @@
         {{ post.html_content|safe }}
     </div>
     <footer>    
-        <p>
+      
+	<a href="/"><i class="icon-arrow-left"></i> See All Posts</a>
+	<p>
             Posted on
             <time datetime="{{ post.pub_date|date:"c" }}">
             {{ post.pub_date }}

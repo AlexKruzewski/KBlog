@@ -264,7 +264,16 @@ header a h1 {
   left: 8px;
   top: -8px;
 }
-/* line 121, ../sass/content.scss */
+/* line 122, ../sass/content.scss */
+#content article footer a {
+  text-decoration: none;
+  color: #15bae8;
+}
+/* line 127, ../sass/content.scss */
+#content article footer a:hover {
+  color: #1f8aa8;
+}
+/* line 133, ../sass/content.scss */
 #content article footer p {
   font-style: italic;
   color: #1f8aa8;
@@ -272,30 +281,30 @@ header a h1 {
   line-height: 2.16667em;
 }
 
-/* line 131, ../sass/content.scss */
+/* line 143, ../sass/content.scss */
 #footer {
   padding: 10px 0;
 }
-/* line 134, ../sass/content.scss */
+/* line 146, ../sass/content.scss */
 #footer p {
   color: #e8e8e8;
 }
-/* line 139, ../sass/content.scss */
+/* line 151, ../sass/content.scss */
 #footer a {
   color: #15bae8;
   text-decoration: none;
 }
-/* line 144, ../sass/content.scss */
+/* line 156, ../sass/content.scss */
 #footer a:hover {
   color: #1f8aa8;
 }
 
-/* line 151, ../sass/content.scss */
+/* line 163, ../sass/content.scss */
 .white {
   color: #fff;
 }
 
-/* line 156, ../sass/content.scss */
+/* line 168, ../sass/content.scss */
 .bold {
   font-weight: bold;
 }
