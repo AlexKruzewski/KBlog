@@ -6,5 +6,6 @@ secrets.py
 *.swp
 .sass-cache/
 build/
+env/
 pip-log.txt
 blog-images/
