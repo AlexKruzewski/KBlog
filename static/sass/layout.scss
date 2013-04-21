@@ -67,6 +67,8 @@ body
 			margin-top:10px;
 		    }
 
+
+		    .rss,
 		    .twitter,
 		    .fb
 		    {
@@ -84,6 +86,12 @@ body
 		    {
 			background:url(/media/style/twitter-icon.png) no-repeat 0 0;
    		    }
+		    
+		    .rss
+		    {
+			background:url(/media/style/rss.png) no-repeat 0 0;
+		    }
+
 		}
 	}
    }
