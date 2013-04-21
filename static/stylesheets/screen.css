@@ -266,14 +266,19 @@ header a h1 {
 }
 /* line 122, ../sass/content.scss */
 #content article footer a {
+  color: #e8e8e8;
+}
+/* line 126, ../sass/content.scss */
+#content article footer a i {
+  margin-right: 3px;
   text-decoration: none;
   color: #15bae8;
 }
-/* line 127, ../sass/content.scss */
-#content article footer a:hover {
-  color: #1f8aa8;
-}
 /* line 133, ../sass/content.scss */
+#content article footer a:hover {
+  color: #15bae8;
+}
+/* line 140, ../sass/content.scss */
 #content article footer p {
   font-style: italic;
   color: #1f8aa8;
@@ -281,30 +286,30 @@ header a h1 {
   line-height: 2.16667em;
 }
 
-/* line 143, ../sass/content.scss */
+/* line 150, ../sass/content.scss */
 #footer {
   padding: 10px 0;
 }
-/* line 146, ../sass/content.scss */
+/* line 153, ../sass/content.scss */
 #footer p {
   color: #e8e8e8;
 }
-/* line 151, ../sass/content.scss */
+/* line 158, ../sass/content.scss */
 #footer a {
   color: #15bae8;
   text-decoration: none;
 }
-/* line 156, ../sass/content.scss */
+/* line 163, ../sass/content.scss */
 #footer a:hover {
   color: #1f8aa8;
 }
 
-/* line 163, ../sass/content.scss */
+/* line 170, ../sass/content.scss */
 .white {
   color: #fff;
 }
 
-/* line 168, ../sass/content.scss */
+/* line 175, ../sass/content.scss */
 .bold {
   font-weight: bold;
 }

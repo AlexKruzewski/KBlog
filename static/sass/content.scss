@@ -120,13 +120,20 @@ header
 
 	   a
 	   {
-		text-decoration:none;
-		color:$main-blue;
-		
+		color:$content-beige;
+	
+		i
+		{
+		    margin-right:3px;
+		    text-decoration:none;
+		    color:$main-blue;
+		}
+	
 		&:hover
 		{
-		    color:$sub-blue;
+		    color:$main-blue;
 		}
+
            }
 
            p
