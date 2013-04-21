@@ -7,7 +7,7 @@ class LatestPostFeed(Feed):
     description = "The latest thrills from alexHappens.com"
 
     def items(self, item):
-        return Post.objects.all()
+        return Post.objects.filter(published = True)
 
     def item_title(self, item):
         return item.title
