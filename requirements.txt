@@ -1,0 +1,12 @@
+Django==1.5.1
+GnuPGInterface==0.3.2
+Markdown==2.2.1
+MySQL-python==1.2.2
+PIL==1.1.7
+South==0.7.6
+command-not-found==0.1
+distribute==0.6.10
+python-apt==0.7.94.2ubuntu6.4
+ufw==0.30pre1-0ubuntu2
+virtualenv==1.4.5
+wsgiref==0.1.2
