@@ -146,15 +146,15 @@ body #footer .content #social .fb {
 }
 /* line 83, ../sass/layout.scss */
 body #footer .content #social .fb {
-  background: url(/media/style/fb-icon.png) no-repeat 0 0;
+  background: url(/static/images/fb-icon.png) no-repeat 0 0;
 }
 /* line 88, ../sass/layout.scss */
 body #footer .content #social .twitter {
-  background: url(/media/style/twitter-icon.png) no-repeat 0 0;
+  background: url(/static/images/twitter-icon.png) no-repeat 0 0;
 }
 /* line 93, ../sass/layout.scss */
 body #footer .content #social .rss {
-  background: url(/media/style/rss.png) no-repeat 0 0;
+  background: url(/static/images/rss.png) no-repeat 0 0;
 }
 
 /* line 61, ../../../../../../opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
